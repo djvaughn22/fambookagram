@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import OpenMirrorNav from "./OpenMirrorNav";
 
 const A = "#FBBF24"; // accent
 const SIGNUP_EMAIL = "hello@openmirrorllc.com";
@@ -26,6 +27,7 @@ export default function Fambookagram() {
 
   return (
     <main className="min-h-screen bg-[#0C0C0C] text-[#F5F0E8]">
+      <OpenMirrorNav />
       <div className="mx-auto max-w-2xl px-5 py-12">
 
         {/* Brand */}
@@ -81,7 +83,7 @@ export default function Fambookagram() {
         {/* Features */}
         <section className="mb-14 grid gap-4 sm:grid-cols-3">
           {features.map((f) => (
-            <div key={f.title} className="rounded-2xl border border-[#262626] bg-[#151515] p-6 text-center">
+            <div key={f.title} className="pop rounded-2xl border border-[#262626] bg-[#151515] p-6 text-center">
               <div className="mb-3 text-3xl">{f.emoji}</div>
               <h3 className="mb-2 text-base font-black text-[#F5F0E8]">{f.title}</h3>
               <p className="text-sm font-semibold leading-6 text-[#9A9188]">{f.text}</p>
