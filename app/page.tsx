@@ -91,18 +91,6 @@ export default function Fambookagram() {
           ))}
         </section>
 
-        {/* Footer */}
-        <footer className="border-t border-[#26324c] pt-8 text-center">
-          <p className="mb-2 text-sm font-black tracking-tight">
-            <span className="text-[#e8edf5]">Fambookagram</span>
-            <span style={{ color: A }}>.com</span>
-          </p>
-          <a href="https://openmirrorllc.com" target="_blank" rel="noopener noreferrer"
-            className="text-xs font-black uppercase tracking-[0.2em] text-[#94a3b8] hover:text-[#e8edf5] transition">
-            An Open Mirror LLC project
-          </a>
-        </footer>
-
       </div>
     </main>
   );
