@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const A = "#38BDF8"; // accent
+const A = "#C084FC"; // accent
 const SIGNUP_EMAIL = "hello@openmirrorllc.com";
 
 const features = [
