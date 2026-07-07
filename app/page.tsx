@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import OpenMirrorNav from "./OpenMirrorNav";
 
 const A = "#38BDF8"; // accent
 const SIGNUP_EMAIL = "hello@openmirrorllc.com";
@@ -27,7 +26,6 @@ export default function Fambookagram() {
 
   return (
     <main className="min-h-screen bg-[#0b1220] text-[#e8edf5]">
-      <OpenMirrorNav />
       <div className="mx-auto max-w-2xl px-5 py-12">
 
         {/* Brand */}
