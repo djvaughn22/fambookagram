@@ -89,6 +89,12 @@ export default function Fambookagram() {
           ))}
         </section>
 
+        {/* Quiet placeholder-domain note (DJ, 2026-07-11) */}
+        <p className="mx-auto max-w-md text-center text-xs font-semibold leading-6 text-[#64748b]">
+          Fambookagram is an Open Mirror concept in testing, on a placeholder domain. If it
+          proves valuable, expect a domain change.
+        </p>
+
       </div>
     </main>
   );
