@@ -12,7 +12,14 @@ npm run dev
 ```
 
 ## Deploy
-Vercel project `fambookagram` — `vercel --prod` (or push to `main` if GitHub-connected).
+Push to `main` — Vercel auto-deploys production.
 
----
-Keep changes small and clean. Branch → PR → merge so updates stay tidy for collaborators.
+## Repo map
+
+- **Production:** https://fambookagram.com — branch `main`, auto-deploys on push (Vercel).
+- **Framework:** Next.js 16.2.6 (App Router). Build: `npm run build`. No test suite.
+- **Routes:** `/` (single page)
+- **Family chrome:** `OpenMirrorNav.tsx` / `OpenMirrorFooter.tsx` / `OpenMirrorTheme.tsx` are synced copies — canonical source is the hub repo `packages/openmirror-ui/` + `scripts/sync-ui.sh`. Never edit the local copies.
+- **Theme:** family ☀️/🌙 toggle; `om-theme` localStorage key; light mode remaps family hexes (see hub `docs/OPEN_MIRROR_PATTERNS.md`).
+- **Protected:** kept intentionally minimal; off the family menus by design.
+- **Make changes in:** `app/page.tsx`.
