@@ -6,7 +6,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://fambookagram.com"),
-  title: "Fambookagram.com — Your Family's Private Feed",
+  title: "Fambookagram",
   description:
     "The family feed, minus the noise. Share photos and everyday moments with the people you actually call family — private, calm, and invite-only. Join the waitlist.",
 };
