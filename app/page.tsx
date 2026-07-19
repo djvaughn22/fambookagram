@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const A = "#C084FC"; // accent
-const SIGNUP_EMAIL = "hello@openmirrorllc.com";
+const SIGNUP_EMAIL = "ask@openmirrorllc.com";
 
 const features = [
   { emoji: "📸", title: "Shared photo albums", text: "Everyone's photos in one warm place — not scattered across five apps." },
@@ -37,7 +37,7 @@ export default function Fambookagram() {
         {/* Hero */}
         <section className="mb-12 text-center">
           <p className="mb-4 text-xs font-black uppercase tracking-[0.3em]" style={{ color: A }}>
-            Coming soon · Private beta
+            An early idea · Testing the concept
           </p>
           <div className="mb-6 text-6xl">👨‍👩‍👧‍👦</div>
           <h1 className="mb-5 text-4xl font-black leading-tight text-[#e8edf5] sm:text-6xl">
@@ -55,7 +55,7 @@ export default function Fambookagram() {
         <section className="mb-14 rounded-3xl border border-[#26324c] bg-[#141d2e] p-7 text-center">
           <h2 className="mb-2 text-xl font-black text-[#e8edf5]">Save your family&apos;s spot</h2>
           <p className="mx-auto mb-6 max-w-sm text-sm font-semibold text-[#94a3b8]">
-            Drop your email and we&apos;ll let you know the moment your private family space is ready.
+            Want to follow along while the concept is tested? Send us an email and you&apos;re on the early list — it goes straight to a real inbox.
           </p>
           {sent ? (
             <div className="rounded-2xl border border-[#26324c] bg-[#1c2740] px-5 py-4 text-sm font-bold text-[#e8edf5]">
