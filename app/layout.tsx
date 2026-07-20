@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://fambookagram.com"),
   title: "Fambookagram",
   description:
-    "The family feed, minus the noise. Share photos and everyday moments with the people you actually call family — private, calm, and invite-only. Join the waitlist.",
+    "The family feed, minus the noise. Share photos and everyday moments with the people you actually call family — private, calm, and invite-only. An early idea being tested.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
