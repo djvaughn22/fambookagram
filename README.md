@@ -1,8 +1,10 @@
-# fambookagram
+# fambookagram — RETIRED 2026-08-02
 
-Your family's private feed. Photos and moments — no ads, no algorithm, no strangers. (Waitlist)
+The standalone product is retired; the concept now lives inside iDontCry as a
+creative playground page: **https://www.idontcry.com/fambookagram**.
+See `RETIREMENT.md` for the full record. The domain, while it resolves, serves
+a pointer page to the new home.
 
-**Live:** https://fambookagram.com
 **Part of:** [Open Mirror LLC](https://openmirrorllc.com)
 
 ## Local dev
