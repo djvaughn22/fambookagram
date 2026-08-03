@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <OpenMirrorNav site="Fambookagram.com" accent="#C084FC" />
         {children}
-        <OpenMirrorFooter siteName="Fambookagram.com" tagline="Your Family's Private Feed" accent="#C084FC" />
+        <OpenMirrorFooter />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-NKYBVC72ZT"
           strategy="afterInteractive"
