@@ -41,10 +41,9 @@ export default function AboutPage() {
         <section id="disclaimer" className="mt-8 scroll-mt-24">
           <h2 className="text-lg font-bold">Disclaimer</h2>
           <p className="mt-2 text-[15px] leading-relaxed text-[#94a3b8]">
-            Open Mirror LLC is independently owned and operated. Nothing
-            published by Open Mirror LLC is sponsored by, affiliated with,
-            endorsed by, or representative of the owner&rsquo;s full-time
-            employer. Read the{" "}
+            Open Mirror LLC and its projects are independently owned and operated. They
+            are not affiliated with, sponsored by, or endorsed by the owner&rsquo;s
+            current or former employers or their affiliates. Read the{" "}
             <a
               href="https://openmirrorllc.com/disclaimer"
               style={{ color: A }}
